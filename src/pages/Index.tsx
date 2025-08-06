@@ -66,12 +66,6 @@ const Index = () => {
             <div className="flex items-center justify-center gap-3 mb-4">
               <Globe className="h-12 w-12" />
               <h1 className="text-5xl font-bold">GSFC</h1>
-              <Link to="/dashboard">
-                <Button variant="secondary" size="lg" className="ml-4 bg-white text-brand-primary hover:bg-white/90">
-                  <Settings className="w-5 h-5 mr-2" />
-                  Admin Dashboard
-                </Button>
-              </Link>
             </div>
             <p className="text-xl opacity-90">Global Safekeeping & Financial Center</p>
             <p className="text-lg opacity-75 mt-2">Secure Asset Management & Storage Solutions</p>
