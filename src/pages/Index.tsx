@@ -4,7 +4,7 @@ import { AssetTable } from "@/components/AssetTable";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Shield, Lock, FileCheck, Settings } from "lucide-react";
+import { Globe, Lock, FileCheck, Settings, Shield } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import assetsData from "@/data/assets.json";
 
@@ -64,7 +64,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-8">
           <div className="text-center text-white">
             <div className="flex items-center justify-center gap-3 mb-4">
-              <Shield className="h-12 w-12" />
+              <Globe className="h-12 w-12" />
               <h1 className="text-5xl font-bold">GSFC</h1>
               <Link to="/dashboard">
                 <Button variant="secondary" size="lg" className="ml-4 bg-white text-brand-primary hover:bg-white/90">
